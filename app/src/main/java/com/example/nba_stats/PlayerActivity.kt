@@ -107,10 +107,10 @@ class PlayerActivity : AppCompatActivity() {
         binding.playerPosition.text = jugador?.position
 
         //establecer altura del jugador
-        binding.playerHeigth.text = jugador?.heightFeet.toString()+"'"+jugador?.heightInches
+        binding.textPlayerHeigth.text = resources.getString(R.string.player_heigth)+" "+jugador?.heightFeet.toString()+"'"+jugador?.heightInches
 
         //establecer peso del jugador
-        binding.playerPounds.text = jugador?.weightPounds.toString()
+        binding.textPlayerPounds.text = resources.getString(R.string.player_pounds)+" "+jugador?.weightPounds.toString()
 
         //establecer logo del equipo
         binding.iVplayerTeam.setImageDrawable(ContextCompat.getDrawable(this,TeamsResources.teamImages[jugador?.team?.abbreviation] ?: R.drawable.no_image_avilable))

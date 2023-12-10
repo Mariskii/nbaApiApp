@@ -26,7 +26,5 @@ class StatsViewHolder(view: View) : RecyclerView.ViewHolder(view)
         binding.reboundsPerGame.text = stats.reb.toString()
         //establecer robos por partido
         binding.stealsPerGame.text = stats.stl.toString()
-        //establecer minutos por partido
-        binding.minutesPerGame.text = stats.min
     }
 }
