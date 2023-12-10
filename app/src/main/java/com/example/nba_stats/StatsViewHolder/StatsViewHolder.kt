@@ -19,7 +19,7 @@ class StatsViewHolder(view: View) : RecyclerView.ViewHolder(view)
         //establecer puntos por partido
         binding.pointsPerGame.text = stats.pts.toString()
         //establecer faltas por partido
-        binding.foulsPerGame.text = stats.fgm.toString()
+        binding.foulsPerGame.text = stats.pf.toString()
         //establecer asistencias por partido
         binding.assistsPerGame.text = stats.ast.toString()
         //establecer rebotes por partido
