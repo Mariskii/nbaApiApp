@@ -51,6 +51,10 @@
 
 
 
+    <color name="nbaBlue">#17408B</color>
+    <color name="nbaRed">#C9082A</color>
+
+
     <color name="statsTitle">#1E86E8</color>
     <color name="statsName">#96ACE5</color>
     <color name="statBackGround">#b5b5b5</color>

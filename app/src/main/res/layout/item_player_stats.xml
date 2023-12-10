@@ -11,7 +11,9 @@
         tools:text="2018"
         android:gravity="center"
         android:paddingHorizontal="30dp"
+        android:textSize="12sp"
         android:textStyle="bold"
+        android:minEms="4"
         android:background="@color/statBackGround"/>
 
     <TextView
@@ -20,8 +22,10 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         tools:text="33.1"
+        android:textSize="12sp"
         android:gravity="center"
         android:paddingHorizontal="10dp"
+        android:minEms="4"
         android:textStyle="bold"/>
 
     <TextView
@@ -30,9 +34,11 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         tools:text="20"
+        android:textSize="12sp"
         android:gravity="center"
         android:paddingHorizontal="10dp"
         android:textStyle="bold"
+        android:minEms="4"
         android:background="@color/statBackGround"/>
 
     <TextView
@@ -41,7 +47,9 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         tools:text="2.4"
+        android:textSize="12sp"
         android:gravity="center"
+        android:minEms="4"
         android:paddingHorizontal="10dp"
         android:textStyle="bold"/>
 
@@ -51,9 +59,11 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         tools:text="12.4"
+        android:textSize="12sp"
         android:gravity="center"
         android:paddingHorizontal="10dp"
         android:textStyle="bold"
+        android:minEms="4"
         android:background="@color/statBackGround"/>
 
     <TextView
@@ -62,7 +72,9 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         tools:text="5.7"
+        android:textSize="12sp"
         android:gravity="center"
+        android:minEms="4"
         android:paddingHorizontal="10dp"
         android:textStyle="bold" />
 </LinearLayout>

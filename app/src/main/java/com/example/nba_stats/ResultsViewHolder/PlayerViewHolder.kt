@@ -2,6 +2,7 @@ package com.example.nba_stats.ResultsViewHolder
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.res.Resources
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
@@ -28,7 +29,7 @@ class PlayerViewHolder(view: View, listener:RecyclerViewInterface):RecyclerView.
 
         // Actualiza las vistas con los datos del jugador
         binding.namePlayerSearched.text = "${player.firstName} ${player.lastName}"
-        binding.teamPlayerSearched.text= player.team.abbreviation
+        binding.teamPlayerSearched.text= player.team.fullName
         binding.positionPlayerSearched.text = player.position
         Picasso.get().load(imageLink).into(binding.ivPlayerSearched)
         binding.cvPlayerSearched.setCardBackgroundColor(getPlayerTeamColor(player))

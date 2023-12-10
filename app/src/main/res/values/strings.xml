@@ -13,4 +13,5 @@
     <string name="steals_per_game">SPG</string>
     <string name="minutes_per_game">MIN</string>
     <string name="fouls_per_game">FPG</string>
+    <string name="base">Base</string>
 </resources>
