@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="searched_player">#BC3000</color>
+
+
+
+    <!--Colores de la aplicacion-->
+    <color name="background_app">#D8D8D8</color>
+
+    <!--Colores Equipos Principales-->
+    <!-- Conferencia Este -->
+    <color name="atlanta_hawks">#E03A3E</color>
+    <color name="boston_celtics">#007A33</color>
+    <color name="brooklyn_nets">#000000</color>
+    <color name="charlotte_hornets">#00788C</color>
+    <color name="chicago_bulls">#FF1919</color>
+    <color name="cleveland_cavaliers">#6F263D</color>
+    <color name="detroit_pistons">#C8102E</color>
+    <color name="indiana_pacers">#002D62</color>
+    <color name="miami_heat">#98002E</color>
+    <color name="milwaukee_bucks">#00471B</color>
+    <color name="new_york_knicks">#F58426</color>
+    <color name="orlando_magic">#0077C0</color>
+    <color name="philadelphia_76ers">#ED174C</color>
+    <color name="toronto_raptors">#CE1141</color>
+    <color name="washington_wizards">#002B5C</color>
+
+    <!-- Conferencia Oeste -->
+    <color name="dallas_mavericks">#0053BC</color>
+    <color name="denver_nuggets">#0E2240</color>
+    <color name="golden_state_warriors">#006BB6</color>
+    <color name="houston_rockets">#CE1141</color>
+    <color name="la_clippers">#C8102E</color>
+    <color name="los_angeles_lakers">#FFED11</color>
+    <color name="memphis_grizzlies">#5D76A9</color>
+    <color name="minnesota_timberwolves">#236192</color>
+    <color name="new_orleans_pelicans">#85714D</color>
+    <color name="oklahoma_city_thunder">#007AC1</color>
+    <color name="phoenix_suns">#FF7000</color>
+    <color name="portland_trail_blazers">#E03A3E</color>
+    <color name="sacramento_kings">#5A2D81</color>
+    <color name="san_antonio_spurs">#A5A5A5</color>
+    <color name="utah_jazz">#FBF661</color>
+
+
+
+    <color name="statsTitle">#1E86E8</color>
+    <color name="statsName">#96ACE5</color>
+    <color name="statBackGround">#b5b5b5</color>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NBA-STATS</string>
+    <string name="team">Equipo:</string>
+    <string name="player_position">Posicion:</string>
+    <string name="player_heigth">Altura:</string>
+    <string name="player_pounds">Libras:</string>
+    <string name="stats_title">ESTADÍSTICAS</string>
+    <string name="stats_season">SEASON</string>
+    <string name="points_per_game">PPG</string>
+    <string name="assists_per_game">APG</string>
+    <string name="rebounds_per_game">RPG</string>
+    <string name="games_played">PG</string>
+    <string name="steals_per_game">SPG</string>
+    <string name="minutes_per_game">MIN</string>
+    <string name="fouls_per_game">FPG</string>
+</resources>
