@@ -14,12 +14,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NBASTATS"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAsqqAbvw-4Jz-ffocjSNjtrc6SfAa-R50" />
+
+        <activity
+            android:name=".TeamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
         <activity
             android:name=".PlayerActivity"
             android:exported="false" />
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

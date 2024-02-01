@@ -6,15 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:id="@+id/toolsBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/nbaBlue"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/ivIniciarSesion"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/round_account_button_with_user_inside_icon_icons_com_72596"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Usuario"
+            android:textSize="20dp"
+            android:textColor="@color/background_app"
+            android:layout_margin="5dp"/>
+
+        <Switch
+            android:id="@+id/switchChangeMode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/day_mode"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/countMainAparences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_aparences"
+            android:textSize="15dp"
+            android:textColor="@color/background_app"/>
+
+    </LinearLayout>
+
     <androidx.appcompat.widget.SearchView
         android:id="@+id/svPlayers"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintVertical_bias="0"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolsBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/frameShimmerPlayerCards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/svPlayers">
+
+        <include layout="@layout/shimmer_players_recycler_view" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPlayers"
@@ -23,6 +74,7 @@
         app:layout_constraintTop_toBottomOf="@+id/svPlayers"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

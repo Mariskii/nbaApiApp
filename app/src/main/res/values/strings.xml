@@ -14,4 +14,20 @@
     <string name="minutes_per_game">MIN</string>
     <string name="fouls_per_game">FPG</string>
     <string name="base">Base</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="register_title">Registrarte</string>
+    <string name="hint_user_name">Nombre de usuario</string>
+    <string name="hint_passwd">Contraseña</string>
+    <string name="hint_confirm_passwd">Confirmar contraseña</string>
+    <string name="already_account">¿Ya tienes una cuenta?</string>
+    <string name="no_account">¿No tienes una cuenta?</string>
+    <string name="missmatch_passwd">Las contraseñas no coinciden</string>
+    <string name="remember_user">Recordar usuario</string>
+    <string name="user_created">Usuario creado correctamente</string>
+    <string name="team_conference">Conferencia:</string>
+    <string name="team_division">Division:</string>
+    <string name="team_city">Ciudad:</string>
+    <string name="day_mode">Modo día</string>
+    <string name="night_mode">Modo noche</string>
+    <string name="main_activity_aparences">Mainactivity numero:</string>
 </resources>

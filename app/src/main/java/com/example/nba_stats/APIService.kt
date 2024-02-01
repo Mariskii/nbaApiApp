@@ -10,8 +10,13 @@ interface APIService
 {
     @GET("players")
     suspend fun getPlayersByName(@Query("search") search:String):Response<PlayerResponse>
+    @GET("players")
+    suspend fun getPlayers(@Query("per_page") quantity:String):Response<PlayerResponse>
     @GET
     suspend fun getPlayersById(@Url url:String):Response<Player>
     @GET("stats")
     suspend fun getStatsByPlayerId(@Query("player_ids[]") playerIds:String):Response<PlayerStatsResponse>
+
+    @GET
+    suspend fun getTeamById(@Url url:String):Response<Team>
 }

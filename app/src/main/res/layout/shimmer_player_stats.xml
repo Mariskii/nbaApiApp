@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/san_antonio_spurs">
+
+    <FrameLayout
+        android:id="@+id/statsSeason"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:minEms="4"
+        android:background="#555555"/>
+
+    <FrameLayout
+        android:id="@+id/pointsPerGame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:minEms="4"
+        />
+
+    <FrameLayout
+        android:id="@+id/foulsPerGame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:minEms="4"
+        android:background="#555555"/>
+
+    <FrameLayout
+        android:id="@+id/assistsPerGame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:minEms="4"
+        android:paddingHorizontal="10dp"
+        android:textStyle="bold"/>
+
+    <FrameLayout
+        android:id="@+id/reboundsPerGame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:minEms="4"
+        android:background="#555555"/>
+
+    <FrameLayout
+        android:id="@+id/stealsPerGame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:minEms="4"
+        android:paddingHorizontal="10dp"
+        />
+</LinearLayout>
